@@ -1,0 +1,28 @@
+{
+    "name": "momoku",
+    "version": "1.0.0",
+    "description": "Momoku - Blind tests",
+    "main": "entry.js",
+    "private": true,
+    "scripts": {
+        "test": "nodemon ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kan-A-Pesh/Momoku.git"
+    },
+    "author": "Kan-A-Pesh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kan-A-Pesh/Momoku/issues"
+    },
+    "homepage": "https://github.com/Kan-A-Pesh/Momoku#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "socket.io": "^4.5.4"
+    },
+    "devDependencies": {
+        "nocache": "^3.0.4"
+    }
+}
